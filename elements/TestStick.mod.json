@@ -34,7 +34,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": true,
-    "damageVsEntity": 4.8,
+    "damageVsEntity": 22000.0,
     "attackSpeed": 0.0,
     "specialInformation": {
       "fixedValue": []
