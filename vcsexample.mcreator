@@ -1,20 +1,46 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "TestStick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vcsexample/item/TestStickItem.java",
+          "src/main/resources/assets/vcsexample/models/item/test_stick.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:piglin_loved": [
+      "~CUSTOM:TestStick"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.vcsexample.test_stick": "Test Stick"
+    }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/vcsexample/init/VcsexampleModItems.java",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/vcsexample/client/ItemArms.java",
+      "src/main/java/net/mcreator/vcsexample/init/VcsexampleModTabs.java",
       "src/main/java/net/mcreator/vcsexample/VcsexampleMod.java",
       "src/main/java/net/mcreator/vcsexample/client/RenderUtils.java",
       "src/main/resources/META-INF/neoforge.mods.toml"
-    ]
+    ],
+    "betteranimations_models": {},
+    "betteranimations_perspectives": {
+      "TestStick": "All perspectives"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -35,5 +61,5 @@
     "currentGenerator": "neoforge-1.21.1",
     "modElementsPackage": "net.mcreator.vcsexample"
   },
-  "mcreatorVersion": 202500424314
+  "mcreatorVersion": 202600124315
 }

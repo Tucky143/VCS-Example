@@ -1,0 +1,85 @@
+{
+  "_fv": 85,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "minecraft:blaze_rod",
+    "customModelName": "Ranged item",
+    "guiTexture": "",
+    "customProperties": {},
+    "states": [],
+    "animations": [],
+    "name": "Test Stick",
+    "rarity": "EPIC",
+    "creativeTabs": [
+      {
+        "value": "OP_BLOCKS"
+      },
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 2,
+    "toolType": -2.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": true,
+    "immuneToFire": true,
+    "isPiglinCurrency": true,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 4.8,
+    "attackSpeed": 0.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "openGUIOnRightClick": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "enableRanged": true,
+    "shootConstantly": true,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "SpectralArrow"
+    },
+    "projectileDisableAmmoCheck": true,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "bow",
+    "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0,
+    "providedBannerPatterns": [],
+    "attributeModifiers": [
+      {
+        "equipmentSlot": "any",
+        "attribute": {
+          "value": "ENTITY_GRAVITY"
+        },
+        "amount": -0.1,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}
