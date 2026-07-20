@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -12,21 +12,15 @@
     "name": "Test Stick",
     "rarity": "EPIC",
     "creativeTabs": [
-      {
-        "value": "OP_BLOCKS"
-      },
-      {
-        "value": "COMBAT"
-      }
+      "OP_BLOCKS",
+      "COMBAT"
     ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 2,
     "toolType": -2.0,
     "damageCount": 0,
-    "recipeRemainder": {
-      "value": ""
-    },
+    "recipeRemainder": "",
     "destroyAnyBlock": true,
     "immuneToFire": true,
     "isPiglinCurrency": true,
@@ -50,23 +44,17 @@
     "enableRanged": true,
     "shootConstantly": true,
     "rangedItemChargesPower": false,
-    "projectile": {
-      "value": "SpectralArrow"
-    },
+    "projectile": "SpectralArrow",
     "projectileDisableAmmoCheck": true,
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,
-    "eatResultItem": {
-      "value": ""
-    },
+    "eatResultItem": "",
     "isMeat": false,
     "isAlwaysEdible": false,
     "animation": "bow",
     "isMusicDisc": false,
-    "musicDiscMusic": {
-      "value": ""
-    },
+    "musicDiscMusic": "",
     "musicDiscDescription": "",
     "musicDiscLengthInTicks": 100,
     "musicDiscAnalogOutput": 0,
@@ -74,9 +62,7 @@
     "attributeModifiers": [
       {
         "equipmentSlot": "any",
-        "attribute": {
-          "value": "ENTITY_GRAVITY"
-        },
+        "attribute": "ENTITY_GRAVITY",
         "amount": -0.1,
         "operation": "ADD_VALUE"
       }

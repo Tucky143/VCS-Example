@@ -3,7 +3,7 @@
     {
       "name": "TestStick",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "test_stick",
       "metadata": {
@@ -18,7 +18,7 @@
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:piglin_loved": [
-      "~CUSTOM:TestStick"
+      "~TestStick@CUSTOM:TestStick"
     ]
   },
   "tab_element_order": {},
@@ -61,5 +61,5 @@
     "currentGenerator": "neoforge-1.21.1",
     "modElementsPackage": "net.mcreator.vcsexample"
   },
-  "mcreatorVersion": 202600124315
+  "mcreatorVersion": 202600230100
 }

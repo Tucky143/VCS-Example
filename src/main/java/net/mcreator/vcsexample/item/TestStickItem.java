@@ -42,7 +42,7 @@ public class TestStickItem extends Item {
 
 	@Override
 	public UseAnim getUseAnimation(ItemStack itemstack) {
-		return UseAnim.BOW;
+		return UseAnim.USEANIM.BOW;
 	}
 
 	@Override
