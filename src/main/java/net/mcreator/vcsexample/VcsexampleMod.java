@@ -18,8 +18,8 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.vcsexample.init.VcsexampleModTabs;
 import net.mcreator.vcsexample.init.VcsexampleModItems;
+import net.mcreator.vcsexample.init.VcsexampleModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Queue;
@@ -41,8 +41,8 @@ public class VcsexampleMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		VcsexampleModBlocks.REGISTRY.register(modEventBus);
 		VcsexampleModItems.REGISTRY.register(modEventBus);
-		VcsexampleModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
